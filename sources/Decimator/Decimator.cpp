@@ -1,12 +1,5 @@
-#include <cstdlib>
+#include "Decimator.h"
 
-class Decimator
+Decimator::Decimator( void )
 {
-	public:
-		int temp;
-
-		Decimator( )
-		{
-			temp = 27;
-		}
-};
+}

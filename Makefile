@@ -17,7 +17,7 @@ unittests:
 clean: clean_main clean_unittests
 
 clean_main:
-	rm -rf "$(RELEASE_DIR)/*"
+	rm -rf "$(RELEASE_DIR)"/*
 
 clean_unittests:
-	rm -rf "$(UNITTEST_DIR)/*"
+	rm -rf "$(UNITTEST_DIR)"/*
