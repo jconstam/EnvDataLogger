@@ -1,7 +1,7 @@
 CURR_DIR=$(shell pwd)
 
-RELEASE_DIR=$(CURR_DIR)/bin_release
-UNITTEST_DIR=$(CURR_DIR)/bin_unittests
+RELEASE_DIR="$(CURR_DIR)/bin_release"
+UNITTEST_DIR="$(CURR_DIR)/bin_unittests"
 
 release:
 	mkdir -p $(RELEASE_DIR)
