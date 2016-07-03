@@ -26,5 +26,6 @@
 *.exe
 *.out
 *.app
-bin_release/
-bin_unittests/
+
+# Output directory
+bin/
