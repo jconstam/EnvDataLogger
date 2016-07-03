@@ -9,18 +9,22 @@ project( ${UNITTEST_PROJ} )
 
 set( CMAKE_VERBOSE_MAKEFILE OFF )
 
-set( CMAKE_CXX_FLAGS "-std=c++11" )
+set( CMAKE_CXX_FLAGS "-std=c++11 -rdynamic" )
 	
 set( SOURCES ${SOURCES} sources/Decimator/Decimator.cpp )
+set( SOURCES ${SOURCES} sources/Logging/Logging.cpp )
+
+include_directories( sources/spdlog/include )
+include_directories( ExampleAcqLib/src )
 
 include_directories( sources/Decimator )
-include_directories( sources/spdlog/include )
+include_directories( sources/Logging )
 
 if( CMAKE_BUILD_TYPE MATCHES Release )
 	set( SOURCES ${SOURCES} sources/Main/Main.cpp )
 
 	add_executable( ${RELEASE_PROJ} ${SOURCES} )
-	target_link_libraries( ${RELEASE_PROJ} czmq zmq protobuf pthread )
+	target_link_libraries( ${RELEASE_PROJ} czmq zmq protobuf pthread dl )
 elseif( CMAKE_BUILD_TYPE MATCHES UnitTests )
 	set( CMAKE_CXX_FLAGS " ${CMAKE_CXX_FLAGS} -fprofile-arcs -ftest-coverage -fPIC -O0" )
 

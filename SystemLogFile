@@ -1,0 +1,31 @@
+[2016-07-03 20:53:02.878] [SystemLog] [info] EnvDataLogger Starting Up
+[2016-07-03 20:53:02.878] [SystemLog] [info] EnvDataLogger Shutting Down
+[2016-07-03 20:57:41.694] [SystemLog] [info] EnvDataLogger Starting Up
+[2016-07-03 20:57:41.695] [SystemLog] [emerg] Couldn't open shared library
+[2016-07-03 20:58:42.656] [SystemLog] [info] EnvDataLogger Starting Up
+[2016-07-03 20:58:42.657] [SystemLog] [emerg] Couldn't open shared library
+[2016-07-03 20:58:42.658] [SystemLog] [info] EnvDataLogger Shutting Down
+[2016-07-03 20:59:17.177] [SystemLog] [info] EnvDataLogger Starting Up
+[2016-07-03 20:59:17.177] [SystemLog] [emerg] Couldn't open shared library
+[2016-07-03 20:59:17.178] [SystemLog] [info] EnvDataLogger Shutting Down
+[2016-07-03 21:00:45.647] [SystemLog] [info] EnvDataLogger Starting Up
+[2016-07-03 21:00:45.648] [SystemLog] [alert] Library name: %s
+[2016-07-03 21:00:45.649] [SystemLog] [info] EnvDataLogger Shutting Down
+[2016-07-03 21:01:38.609] [SystemLog] [info] EnvDataLogger Starting Up
+[2016-07-03 21:01:38.610] [SystemLog] [alert] Library name: Example Acquisition Library
+[2016-07-03 21:01:38.610] [SystemLog] [info] EnvDataLogger Shutting Down
+[2016-07-03 21:01:58.486] [SystemLog] [info] EnvDataLogger Starting Up
+[2016-07-03 21:01:58.487] [SystemLog] [alert] Library name: Example Acquisition Library
+[2016-07-03 21:01:58.487] [SystemLog] [info] EnvDataLogger Shutting Down
+[2016-07-03 21:02:28.523] [SystemLog] [info] EnvDataLogger Starting Up
+[2016-07-03 21:02:28.524] [SystemLog] [alert] Library name: Example Acquisition Library v0.1
+[2016-07-03 21:02:28.525] [SystemLog] [info] EnvDataLogger Shutting Down
+[2016-07-03 21:03:35.340] [SystemLog] [info] EnvDataLogger Starting Up
+[2016-07-03 21:03:35.341] [SystemLog] [alert] Library name: Example Acquisition Library v0.1
+[2016-07-03 21:03:35.341] [SystemLog] [info] EnvDataLogger Shutting Down
+[2016-07-03 21:03:45.968] [SystemLog] [info] EnvDataLogger Starting Up
+[2016-07-03 21:03:45.969] [SystemLog] [alert] Library name: Example Acquisition Library v0.1 (NOW WITH CLASSES!)
+[2016-07-03 21:03:45.969] [SystemLog] [info] EnvDataLogger Shutting Down
+[2016-07-03 21:03:52.440] [SystemLog] [info] EnvDataLogger Starting Up
+[2016-07-03 21:03:52.441] [SystemLog] [alert] Library name: Example Acquisition Library
+[2016-07-03 21:03:52.441] [SystemLog] [info] EnvDataLogger Shutting Down
